@@ -1,0 +1,14 @@
+{
+    "name": "Maiúsculo",
+    "version": "1.0",
+    "description":"Tranforma um texto em caixa alta",
+    "brouser_action":{
+        "default_popup":"index.html"
+    },
+    "manifest_version":2,
+
+
+
+
+
+}
