@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded',function(){
         let textM = document.querySelector('#texto').value;
         document.querySelector("#text-resultado").innerHTML = lower(textM);
     })
-
     function lower (textM){
         return textM.toLowerCase();
     }
