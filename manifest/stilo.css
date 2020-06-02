@@ -1,8 +1,10 @@
+body{
+    font-family: "Trebuchet MS",Helvetica , sans-serif;
+    background-color: #fff;
+}
 #principal{
     width: 300px;
-    height: 100px;   
-    font-family: "Trebuchet MS",Helvetica , sans-serif;
-
+    height: 100px;     
 }
 .botaoMa , .botaoMi{
     margin-top: 15px;
@@ -20,26 +22,33 @@
 .botaoMa:hover , .botaoMi:hover{
     color: #010a04;
     background-color: rgb(242, 247, 246);
-
 }
-
 #resultado{
     margin-top:15px;
     margin-bottom: 15px;
-    background-color:  rgba(248, 248, 243, 0.459);
+    height: 65px;
+    background-color: rgb(225, 228, 238);
+    border-radius: 10px;
+    border: solid 1px #000;
+}
+#text-resultado{
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor:text;
 }
 #texto{
     border-radius: 10px;
-    width: 300px;
+    width: 297px;
+    margin-left: 10;
     line-height: 2em;
     border: solid 1px #000;
-    background-color: rgba(248, 248, 243, 0.459);
+    cursor: text;
+    background-color: rgb(225, 228, 238);
 }
 h3 {
     text-align: center;
     font-size: 1.5em;
 }
-
 hr {
-    border:solid 2px blue;
+    border:solid 2px rgb(74, 74, 238);
 }
